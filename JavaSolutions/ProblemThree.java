@@ -36,7 +36,7 @@ public class ProblemThree{
          divide n without reminder. So , it can be useful approach to boost speed of execution. I decreased the limit
          after every factor (not necessarily prime factor but only factor). For example , for number 600851475143 it
          is first prime factor is 71 and 600851475143/71 = 8462696833 , which means there is no bigger number
-         than 8462696833 can divide 600851475143 without reminder. According to this number of iteration decreased and
+         than 8462696833 can divide 600851475143 without reminder. According to this , number of iteration decreased and
          it affects runtime */
         long limit = n;
         long biggestPrimeFactor = 0 ;
