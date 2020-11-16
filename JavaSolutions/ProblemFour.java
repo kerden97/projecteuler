@@ -44,7 +44,8 @@ public class ProblemFour {
     }
     /**
      * Check if a number palindrome number or not according to definition in the question
-     *
+     * @param number  ---> product of two 3-digit numbers
+     *                
      * @return boolean true/false
      */
     public static boolean palindromeCheck(int number ){
