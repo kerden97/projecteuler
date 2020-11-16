@@ -28,7 +28,4 @@ def largestPalindrome():
 #  @return boolean True | False
 def palindromeCheck(number):
     strNumber = str(number)
-    if strNumber == strNumber[::-1]:  # python allow us to reverse a string easily like this
-        return True
-    return False
-
+    return strNumber == strNumber[::-1]
